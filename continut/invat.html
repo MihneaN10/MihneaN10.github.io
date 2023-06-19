@@ -1,0 +1,38 @@
+
+        <p><a href="#s1">Jump to Chapter 4</a></p>
+        <aside>
+            <section id="s1">
+        
+            <a href="#s1">
+                Sectiunea 1
+            </a>
+            <p>Data:</p>
+            <p id="data"></p>
+         
+
+            <p id="demo2"></p>
+            <script>
+                if (navigator.geolocation) {
+                  navigator.geolocation.getCurrentPosition(showPosition);
+                } else { 
+                  document.getElementById("demo2").innerHTML =
+                  "Geolocation is not supported by this browser.";
+                }
+                
+                function showPosition(position) {
+                  document.getElementById("demo2").innerHTML =
+                  "Latitude: " + position.coords.latitude + "<br>" +
+                  "Longitude: " + position.coords.longitude;
+                }
+                </script>
+            
+            </section>
+            <section id="s2">
+        
+                <a href="#s2">
+                    Sectiunea 2
+                </a>
+                
+                <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas> 
+
+        </aside>

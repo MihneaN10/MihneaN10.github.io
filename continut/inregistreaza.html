@@ -1,0 +1,105 @@
+    <style>
+      input[type=text], select {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 9px 0;
+        display: inline-flex;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 15%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 1px solid #ccc ;
+        border-radius: 4px;
+        cursor: pointer;
+      
+       
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      </style>
+    <body>
+        <header>
+            <h1>Inregistreaza:</h1>
+            <p>Posted by Mihnea Negru</p>
+          </header> 
+    
+        <form>
+            <label for="usern">Nume utilizator:</label>
+            <br>
+            <input type="text" id="usern" name="usern">
+            <br>
+            <label for="pass">Password:</label><br>
+            <input type="text" id="pass" name="pass">
+            <br>
+            <label for="fname">Prenume:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Nume:</label><br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="tel">Telefon:</label><br>
+            <input type="tel" id="tel" name="tel">
+            <br>
+            <br>
+            <label for="color">Culoare preferata:</label><br>
+            <input type="color" id="color" name="color">
+            <br>
+            <label for="cars">Sex:</label>
+
+            <select name="sex" id="sex">
+              <option value="masculin">Masculin</option>
+              <option value="feminin">Feminin</option>
+            </select> 
+            <br>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Formula 1">
+            <label for="vehicle1"> I like Formula 1</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Rally">
+            <label for="vehicle2"> I like Rally</label><br>
+            <br>
+            <label for="car">Choose your favorite car from the list:</label>
+            <input list="cars" name="car" id="car">
+            
+            <datalist id="cars">
+              <option value="Mercedes">
+              <option value="Audi">
+              <option value="BMW">
+              <option value="Lexus">
+                <option value="Opel">
+                <option value="Skoda">
+             
+            </datalist> 
+            <br>
+            <label for="age">Varsta:</label><br>
+            <input type="range" id="age" name="age">
+            <br>
+            <label for="url">Adresa pagina personala:</label><br>
+            <input type="url" id="url" name="url">
+            <br>
+            <label for="date">Data nasterii:</label><br>
+            <input type="date" id="date" name="date">
+            <br>
+            <label for="time">Ora nasterii:</label><br>
+            <input type="time" id="time" name="time">
+            <br>
+            <textarea name="message" rows="10" cols="30"></textarea> 
+                <br>
+            <input type="submit" value="Submit">
+          </form> 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<masini>
+    <masina id="1">
+        <marca>Toyota</marca>
+        <model>Camry</model>
+        <andefabricatie>2022</andefabricatie>
+        <pret>35000</pret>
+    </masina>
+    <masina id="2">
+        <marca>Hyundai</marca>
+        <model>Tucson</model>
+        <andefabricatie>2020</andefabricatie>
+        <pret>23000</pret>
+    </masina>
+    <masina id="3">
+        <marca>Volkswagen</marca>
+        <model>Passat</model>
+        <andefabricatie>2020</andefabricatie>
+        <pret>20000</pret>
+    </masina>
+    <masina id="4">
+        <marca>Dacia</marca>
+        <model>Logan</model>
+        <andefabricatie>2022</andefabricatie>
+        <pret>14000</pret>
+    </masina>
+    <masina id="5">
+        <marca>Lexus</marca>
+        <model>ES</model>
+        <andefabricatie>2022</andefabricatie>
+        <pret>70000</pret>
+    </masina>
+    <masina id="6">
+        <marca>Renault</marca>
+        <model>Megane</model>
+        <andefabricatie>2021</andefabricatie>
+        <pret>19000</pret>
+    </masina>
+</masini>
